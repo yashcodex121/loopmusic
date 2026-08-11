@@ -69,6 +69,12 @@ def git():
         return
 
     REPO_LINK = config.UPSTREAM_REPO
+    if not REPO_LINK:
+        LOGGER(__name__).info(
+            "UPSTREAM_REPO is not set. Skipping self-update step (this avoids "
+            "overwriting the deployed code with an unrelated repository)."
+        )
+        return
     if config.GIT_TOKEN:
         GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
         TEMP_REPO = REPO_LINK.split("https://")[1]
