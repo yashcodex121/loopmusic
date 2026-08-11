@@ -27,7 +27,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=gradient&customColorList=17,18,19,20"/>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/yashcodex121/dream.git">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/yashcodex121/loopmusic.git">
     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" height="40">
   </a>
 </p>
